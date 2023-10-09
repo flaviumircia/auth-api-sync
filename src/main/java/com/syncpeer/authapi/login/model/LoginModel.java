@@ -1,4 +1,4 @@
-package com.syncpeer.authapi.model;
+package com.syncpeer.authapi.login.model;
 
 import lombok.Getter;
 import lombok.Setter;

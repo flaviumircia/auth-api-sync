@@ -1,7 +1,7 @@
-package com.syncpeer.authapi.controller;
+package com.syncpeer.authapi.login.controller;
 
 
-import com.syncpeer.authapi.model.LoginModel;
+import com.syncpeer.authapi.login.model.LoginModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PostMapping;
