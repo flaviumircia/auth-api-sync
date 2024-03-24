@@ -8,6 +8,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.math.BigInteger;
+import java.sql.Date;
 import java.util.Collection;
 import java.util.List;
 import java.util.Objects;
@@ -28,6 +29,8 @@ public class UserModel implements UserDetails {
     private String lastName;
     private String email;
     private String password;
+    private Date dateOfBirth;
+    private String imageUri;
     @Enumerated(EnumType.STRING)
     private Role role;
 

@@ -2,6 +2,8 @@ package com.syncpeer.authapi.auth;
 
 import lombok.*;
 
+import java.sql.Date;
+
 @Data
 @Builder
 @AllArgsConstructor
@@ -12,4 +14,7 @@ public class RegisterRequest {
     private String lastName;
     private String email;
     private String password;
+    private Date dateOfBirth;
+    private String imageUri;
+
 }
